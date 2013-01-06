@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC4D00001699B6D30038D7C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4DFFFF1699B6D30038D7C2 /* Default-568h@2x.png */; };
+		AC4D00031699B6D30038D7C2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4D00011699B6D30038D7C2 /* MainStoryboard.storyboard */; };
+		AC4D00061699B6D30038D7C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D00051699B6D30038D7C2 /* ViewController.m */; };
+		AC4D000E1699B6D30038D7C2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4D000D1699B6D30038D7C2 /* SenTestingKit.framework */; };
+		AC4D000F1699B6D30038D7C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4DFFE91699B6D30038D7C2 /* UIKit.framework */; };
+		AC4D00101699B6D30038D7C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4DFFEB1699B6D30038D7C2 /* Foundation.framework */; };
+		AC4D00181699B6D30038D7C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC4D00161699B6D30038D7C2 /* InfoPlist.strings */; };
+		AC4D001B1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4D001A1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.m */; };
+		AC4DFFEA1699B6D30038D7C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4DFFE91699B6D30038D7C2 /* UIKit.framework */; };
+		AC4DFFEC1699B6D30038D7C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4DFFEB1699B6D30038D7C2 /* Foundation.framework */; };
+		AC4DFFEE1699B6D30038D7C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4DFFED1699B6D30038D7C2 /* CoreGraphics.framework */; };
+		AC4DFFF41699B6D30038D7C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC4DFFF21699B6D30038D7C2 /* InfoPlist.strings */; };
+		AC4DFFF61699B6D30038D7C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DFFF51699B6D30038D7C2 /* main.m */; };
+		AC4DFFFA1699B6D30038D7C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DFFF91699B6D30038D7C2 /* AppDelegate.m */; };
+		AC4DFFFC1699B6D30038D7C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4DFFFB1699B6D30038D7C2 /* Default.png */; };
+		AC4DFFFE1699B6D30038D7C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4DFFFD1699B6D30038D7C2 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC4D00111699B6D30038D7C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4DFFDC1699B6D20038D7C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4DFFE41699B6D30038D7C2;
+			remoteInfo = MineSweeper_Storyboards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC4D00021699B6D30038D7C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AC4D00041699B6D30038D7C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC4D00051699B6D30038D7C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC4D000C1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeper_StoryboardsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4D000D1699B6D30038D7C2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC4D00151699B6D30038D7C2 /* MineSweeper_StoryboardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MineSweeper_StoryboardsTests-Info.plist"; sourceTree = "<group>"; };
+		AC4D00171699B6D30038D7C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC4D00191699B6D30038D7C2 /* MineSweeper_StoryboardsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineSweeper_StoryboardsTests.h; sourceTree = "<group>"; };
+		AC4D001A1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineSweeper_StoryboardsTests.m; sourceTree = "<group>"; };
+		AC4DFFE51699B6D30038D7C2 /* MineSweeper_Storyboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper_Storyboards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4DFFE91699B6D30038D7C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC4DFFEB1699B6D30038D7C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC4DFFED1699B6D30038D7C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC4DFFF11699B6D30038D7C2 /* MineSweeper_Storyboards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MineSweeper_Storyboards-Info.plist"; sourceTree = "<group>"; };
+		AC4DFFF31699B6D30038D7C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC4DFFF51699B6D30038D7C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC4DFFF71699B6D30038D7C2 /* MineSweeper_Storyboards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MineSweeper_Storyboards-Prefix.pch"; sourceTree = "<group>"; };
+		AC4DFFF81699B6D30038D7C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC4DFFF91699B6D30038D7C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC4DFFFB1699B6D30038D7C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AC4DFFFD1699B6D30038D7C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AC4DFFFF1699B6D30038D7C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4D00081699B6D30038D7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D000E1699B6D30038D7C2 /* SenTestingKit.framework in Frameworks */,
+				AC4D000F1699B6D30038D7C2 /* UIKit.framework in Frameworks */,
+				AC4D00101699B6D30038D7C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4DFFE21699B6D30038D7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4DFFEA1699B6D30038D7C2 /* UIKit.framework in Frameworks */,
+				AC4DFFEC1699B6D30038D7C2 /* Foundation.framework in Frameworks */,
+				AC4DFFEE1699B6D30038D7C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4D00131699B6D30038D7C2 /* MineSweeper_StoryboardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D00191699B6D30038D7C2 /* MineSweeper_StoryboardsTests.h */,
+				AC4D001A1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.m */,
+				AC4D00141699B6D30038D7C2 /* Supporting Files */,
+			);
+			path = MineSweeper_StoryboardsTests;
+			sourceTree = "<group>";
+		};
+		AC4D00141699B6D30038D7C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D00151699B6D30038D7C2 /* MineSweeper_StoryboardsTests-Info.plist */,
+				AC4D00161699B6D30038D7C2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC4DFFDA1699B6D20038D7C2 = {
+			isa = PBXGroup;
+			children = (
+				AC4DFFEF1699B6D30038D7C2 /* MineSweeper_Storyboards */,
+				AC4D00131699B6D30038D7C2 /* MineSweeper_StoryboardsTests */,
+				AC4DFFE81699B6D30038D7C2 /* Frameworks */,
+				AC4DFFE61699B6D30038D7C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4DFFE61699B6D30038D7C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4DFFE51699B6D30038D7C2 /* MineSweeper_Storyboards.app */,
+				AC4D000C1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4DFFE81699B6D30038D7C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC4DFFE91699B6D30038D7C2 /* UIKit.framework */,
+				AC4DFFEB1699B6D30038D7C2 /* Foundation.framework */,
+				AC4DFFED1699B6D30038D7C2 /* CoreGraphics.framework */,
+				AC4D000D1699B6D30038D7C2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC4DFFEF1699B6D30038D7C2 /* MineSweeper_Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AC4DFFF81699B6D30038D7C2 /* AppDelegate.h */,
+				AC4DFFF91699B6D30038D7C2 /* AppDelegate.m */,
+				AC4D00011699B6D30038D7C2 /* MainStoryboard.storyboard */,
+				AC4D00041699B6D30038D7C2 /* ViewController.h */,
+				AC4D00051699B6D30038D7C2 /* ViewController.m */,
+				AC4DFFF01699B6D30038D7C2 /* Supporting Files */,
+			);
+			path = MineSweeper_Storyboards;
+			sourceTree = "<group>";
+		};
+		AC4DFFF01699B6D30038D7C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC4DFFF11699B6D30038D7C2 /* MineSweeper_Storyboards-Info.plist */,
+				AC4DFFF21699B6D30038D7C2 /* InfoPlist.strings */,
+				AC4DFFF51699B6D30038D7C2 /* main.m */,
+				AC4DFFF71699B6D30038D7C2 /* MineSweeper_Storyboards-Prefix.pch */,
+				AC4DFFFB1699B6D30038D7C2 /* Default.png */,
+				AC4DFFFD1699B6D30038D7C2 /* Default@2x.png */,
+				AC4DFFFF1699B6D30038D7C2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4D000B1699B6D30038D7C2 /* MineSweeper_StoryboardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4D00211699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeper_StoryboardsTests" */;
+			buildPhases = (
+				AC4D00071699B6D30038D7C2 /* Sources */,
+				AC4D00081699B6D30038D7C2 /* Frameworks */,
+				AC4D00091699B6D30038D7C2 /* Resources */,
+				AC4D000A1699B6D30038D7C2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4D00121699B6D30038D7C2 /* PBXTargetDependency */,
+			);
+			name = MineSweeper_StoryboardsTests;
+			productName = MineSweeper_StoryboardsTests;
+			productReference = AC4D000C1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AC4DFFE41699B6D30038D7C2 /* MineSweeper_Storyboards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4D001E1699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeper_Storyboards" */;
+			buildPhases = (
+				AC4DFFE11699B6D30038D7C2 /* Sources */,
+				AC4DFFE21699B6D30038D7C2 /* Frameworks */,
+				AC4DFFE31699B6D30038D7C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineSweeper_Storyboards;
+			productName = MineSweeper_Storyboards;
+			productReference = AC4DFFE51699B6D30038D7C2 /* MineSweeper_Storyboards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4DFFDC1699B6D20038D7C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mario Stallone";
+			};
+			buildConfigurationList = AC4DFFDF1699B6D20038D7C2 /* Build configuration list for PBXProject "MineSweeper_Storyboards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC4DFFDA1699B6D20038D7C2;
+			productRefGroup = AC4DFFE61699B6D30038D7C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4DFFE41699B6D30038D7C2 /* MineSweeper_Storyboards */,
+				AC4D000B1699B6D30038D7C2 /* MineSweeper_StoryboardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4D00091699B6D30038D7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D00181699B6D30038D7C2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4DFFE31699B6D30038D7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4DFFF41699B6D30038D7C2 /* InfoPlist.strings in Resources */,
+				AC4DFFFC1699B6D30038D7C2 /* Default.png in Resources */,
+				AC4DFFFE1699B6D30038D7C2 /* Default@2x.png in Resources */,
+				AC4D00001699B6D30038D7C2 /* Default-568h@2x.png in Resources */,
+				AC4D00031699B6D30038D7C2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC4D000A1699B6D30038D7C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4D00071699B6D30038D7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D001B1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4DFFE11699B6D30038D7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4DFFF61699B6D30038D7C2 /* main.m in Sources */,
+				AC4DFFFA1699B6D30038D7C2 /* AppDelegate.m in Sources */,
+				AC4D00061699B6D30038D7C2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC4D00121699B6D30038D7C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4DFFE41699B6D30038D7C2 /* MineSweeper_Storyboards */;
+			targetProxy = AC4D00111699B6D30038D7C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC4D00011699B6D30038D7C2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4D00021699B6D30038D7C2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AC4D00161699B6D30038D7C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4D00171699B6D30038D7C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC4DFFF21699B6D30038D7C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4DFFF31699B6D30038D7C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4D001C1699B6D30038D7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC4D001D1699B6D30038D7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4D001F1699B6D30038D7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MineSweeper_Storyboards/MineSweeper_Storyboards-Prefix.pch";
+				INFOPLIST_FILE = "MineSweeper_Storyboards/MineSweeper_Storyboards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC4D00201699B6D30038D7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MineSweeper_Storyboards/MineSweeper_Storyboards-Prefix.pch";
+				INFOPLIST_FILE = "MineSweeper_Storyboards/MineSweeper_Storyboards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC4D00221699B6D30038D7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MineSweeper_Storyboards.app/MineSweeper_Storyboards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MineSweeper_Storyboards/MineSweeper_Storyboards-Prefix.pch";
+				INFOPLIST_FILE = "MineSweeper_StoryboardsTests/MineSweeper_StoryboardsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AC4D00231699B6D30038D7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MineSweeper_Storyboards.app/MineSweeper_Storyboards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MineSweeper_Storyboards/MineSweeper_Storyboards-Prefix.pch";
+				INFOPLIST_FILE = "MineSweeper_StoryboardsTests/MineSweeper_StoryboardsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4D001E1699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeper_Storyboards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4D001F1699B6D30038D7C2 /* Debug */,
+				AC4D00201699B6D30038D7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC4D00211699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeper_StoryboardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4D00221699B6D30038D7C2 /* Debug */,
+				AC4D00231699B6D30038D7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC4DFFDF1699B6D20038D7C2 /* Build configuration list for PBXProject "MineSweeper_Storyboards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4D001C1699B6D30038D7C2 /* Debug */,
+				AC4D001D1699B6D30038D7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4DFFDC1699B6D20038D7C2 /* Project object */;
+}
