@@ -7,8 +7,11 @@
 //
 
 #import "Spot.h"
+#import "MineSpot.h"
+#import "NSArray+NSArrayUtils.h"
 
 @interface EmptySpot : Spot
 
+-(NSString*)neighbourMineCount;
 
 @end

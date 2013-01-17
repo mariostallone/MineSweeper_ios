@@ -14,5 +14,6 @@
 @property(nonatomic,retain) NSMutableArray *spots;
 
 -(void)initialize;
+-(void)blastMine;
 
 @end

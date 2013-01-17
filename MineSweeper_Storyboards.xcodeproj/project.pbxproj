@@ -25,6 +25,7 @@
 		AC4DFFFA1699B6D30038D7C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DFFF91699B6D30038D7C2 /* AppDelegate.m */; };
 		AC4DFFFC1699B6D30038D7C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4DFFFB1699B6D30038D7C2 /* Default.png */; };
 		AC4DFFFE1699B6D30038D7C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4DFFFD1699B6D30038D7C2 /* Default@2x.png */; };
+		AC98806416A8803E00968C69 /* NSArray+NSArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AC98806316A8803E00968C69 /* NSArray+NSArrayUtils.m */; };
 		ACC737D91699F52D00D99F3F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4D000D1699B6D30038D7C2 /* SenTestingKit.framework */; };
 		ACC737DA1699F52D00D99F3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4DFFE91699B6D30038D7C2 /* UIKit.framework */; };
 		ACC737DB1699F52D00D99F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4DFFEB1699B6D30038D7C2 /* Foundation.framework */; };
@@ -73,6 +74,8 @@
 		AC4DFFFB1699B6D30038D7C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AC4DFFFD1699B6D30038D7C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AC4DFFFF1699B6D30038D7C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AC98806216A8803E00968C69 /* NSArray+NSArrayUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSArrayUtils.h"; sourceTree = "<group>"; };
+		AC98806316A8803E00968C69 /* NSArray+NSArrayUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSArrayUtils.m"; sourceTree = "<group>"; };
 		ACC737D81699F52D00D99F3F /* MineSweeperSpecs.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperSpecs.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC737DE1699F52D00D99F3F /* MineSweeperSpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MineSweeperSpecs-Info.plist"; sourceTree = "<group>"; };
 		ACC737E01699F52D00D99F3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -199,6 +202,7 @@
 				AC4D00011699B6D30038D7C2 /* MainStoryboard.storyboard */,
 				ACC737D21699F4FE00D99F3F /* ViewControllers */,
 				ACC737FA1699FA9F00D99F3F /* Model */,
+				AC98805E16A87F5700968C69 /* Helpers */,
 				AC4DFFF01699B6D30038D7C2 /* Supporting Files */,
 			);
 			path = MineSweeper_Storyboards;
@@ -216,6 +220,15 @@
 				AC4DFFFF1699B6D30038D7C2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC98805E16A87F5700968C69 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AC98806216A8803E00968C69 /* NSArray+NSArrayUtils.h */,
+				AC98806316A8803E00968C69 /* NSArray+NSArrayUtils.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		ACC737CF1699F4D100D99F3F /* Resources */ = {
@@ -479,6 +492,7 @@
 				ACC738031699FBF300D99F3F /* EmptySpot.m in Sources */,
 				ACC738061699FC0100D99F3F /* MineSpot.m in Sources */,
 				ACC7380D169A025B00D99F3F /* MineField.m in Sources */,
+				AC98806416A8803E00968C69 /* NSArray+NSArrayUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

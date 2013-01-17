@@ -12,7 +12,13 @@
 
 -(void)open
 {
-    
+    [super open];
+    [self.delegate blastMine];
+}
+
+-(void)setBlasted
+{
+    [super open];
 }
 
 @end

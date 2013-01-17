@@ -10,5 +10,29 @@
 
 @implementation Spot
 
+-(id)init
+{
+    self=[super init];
+    if(self)
+    {
+        self.neighbours = [[NSMutableArray alloc] init];
+    }
+    return self;
+}
+
+-(NSString*)neighbourCount
+{
+    return [NSString stringWithFormat:@"%d",[self.neighbours count]];
+}
+
+-(BOOL)isOpen
+{
+    return _open;
+}
+
+-(void)open
+{
+    _open=YES;
+}
 
 @end

@@ -7,7 +7,18 @@
 //
 
 #import "Spot.h"
+#import "MineField.h"
+
+@protocol BlastMineProtocol <NSObject>
+
+-(void)blastMine;
+
+@end
 
 @interface MineSpot : Spot
+
+@property(nonatomic,retain) id<BlastMineProtocol> delegate;
+
+-(void)setBlasted;
 
 @end

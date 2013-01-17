@@ -18,7 +18,13 @@
 @end
 
 @interface Spot : NSObject<SpotNeighbourKnock>
-
+{
+    BOOL _open;
+}
 @property(nonatomic,retain) NSMutableArray *neighbours;
+
+-(NSString*)neighbourCount;
+-(BOOL)isOpen;
+-(void)open;
 
 @end

@@ -11,5 +11,5 @@
 #import "EmptySpot.h"
 #import "MineSpot.h"
 
-static const int cols = 8;
-static const int rows = 7;
+static const NSInteger cols = 8;
+static const NSInteger rows = 7;

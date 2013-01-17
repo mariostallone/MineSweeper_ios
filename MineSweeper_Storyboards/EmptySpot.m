@@ -12,7 +12,12 @@
 
 -(void)open
 {
-    
+
+}
+
+-(NSString*)neighbourMineCount
+{
+    return [NSString stringWithFormat:@"%d",[self.neighbours countOfObjectsOfType:[MineSpot class]]];
 }
 
 @end
