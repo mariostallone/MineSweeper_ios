@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="faX-MF-BsC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="faX-MF-BsC">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -43,8 +43,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cell.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uhd-nS-Pdk"/>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5EL-we-XMM">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cell.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zTR-hm-fpl"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEZ-6G-J7M">
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
@@ -52,18 +52,19 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="uhd-nS-Pdk" firstAttribute="bottom" secondItem="klO-52-gbK" secondAttribute="bottom" type="default" id="McU-Eo-hT5"/>
-                                    <constraint firstItem="5EL-we-XMM" firstAttribute="leading" secondItem="uhd-nS-Pdk" secondAttribute="leading" type="default" id="VP1-I1-HND"/>
-                                    <constraint firstItem="uhd-nS-Pdk" firstAttribute="trailing" secondItem="klO-52-gbK" secondAttribute="trailing" type="default" id="XUw-9L-clB"/>
-                                    <constraint firstItem="uhd-nS-Pdk" firstAttribute="top" secondItem="klO-52-gbK" secondAttribute="top" type="default" id="Xaw-WQ-QBg"/>
-                                    <constraint firstItem="5EL-we-XMM" firstAttribute="leading" secondItem="klO-52-gbK" secondAttribute="leading" type="default" id="YGq-rW-tp1"/>
-                                    <constraint firstItem="5EL-we-XMM" firstAttribute="top" secondItem="klO-52-gbK" secondAttribute="top" constant="9" id="yKZ-e1-0aW"/>
+                                    <constraint firstItem="zTR-hm-fpl" firstAttribute="leading" secondItem="klO-52-gbK" secondAttribute="leading" type="default" id="3B8-qn-I1N"/>
+                                    <constraint firstItem="OEZ-6G-J7M" firstAttribute="top" secondItem="klO-52-gbK" secondAttribute="top" type="default" id="7tV-hU-NHd"/>
+                                    <constraint firstItem="OEZ-6G-J7M" firstAttribute="trailing" secondItem="klO-52-gbK" secondAttribute="trailing" type="default" id="HDK-Mt-3Ev"/>
+                                    <constraint firstItem="zTR-hm-fpl" firstAttribute="top" secondItem="klO-52-gbK" secondAttribute="top" type="default" id="I8g-N9-wna"/>
+                                    <constraint firstItem="zTR-hm-fpl" firstAttribute="bottom" secondItem="klO-52-gbK" secondAttribute="bottom" type="default" id="Or9-3q-9bD"/>
+                                    <constraint firstItem="zTR-hm-fpl" firstAttribute="trailing" secondItem="klO-52-gbK" secondAttribute="trailing" type="default" id="S24-Za-31L"/>
+                                    <constraint firstItem="OEZ-6G-J7M" firstAttribute="centerX" secondItem="zTR-hm-fpl" secondAttribute="centerX" type="default" id="Wdd-hw-uTf"/>
+                                    <constraint firstItem="OEZ-6G-J7M" firstAttribute="bottom" secondItem="klO-52-gbK" secondAttribute="bottom" type="default" id="ivF-k0-UcL"/>
                                 </constraints>
                                 <connections>
-                                    <outlet property="frontImage" destination="uhd-nS-Pdk" id="FGk-Qq-H9d"/>
-                                    <outlet property="frontLabel" destination="5EL-we-XMM" id="QKc-Xq-yiN"/>
+                                    <outlet property="frontImage" destination="zTR-hm-fpl" id="RU8-PH-bwF"/>
+                                    <outlet property="frontLabel" destination="OEZ-6G-J7M" id="O1J-Qh-4Z3"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -77,7 +78,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5d-30-T3X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-74" y="101"/>
+            <point key="canvasLocation" x="-63" y="101"/>
         </scene>
     </scenes>
     <resources>

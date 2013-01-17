@@ -10,6 +10,5 @@
 
 @implementation Spot
 
-@synthesize state;
 
 @end

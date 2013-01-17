@@ -7,10 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MineSpotState.h"
 
-@interface Spot : NSObject
+@class Spot;
 
-@property(nonatomic,retain) MineSpotState *state;
+@protocol SpotNeighbourKnock <NSObject>
+
+-(void)openNeighbour;
+-(BOOL)isMine;
+
+@end
+
+@interface Spot : NSObject<SpotNeighbourKnock>
+
+@property(nonatomic,retain) NSMutableArray *neighbours;
 
 @end

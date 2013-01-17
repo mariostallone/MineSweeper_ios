@@ -35,7 +35,6 @@
 		ACC738001699FBD700D99F3F /* Spot.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC737FF1699FBD700D99F3F /* Spot.m */; };
 		ACC738031699FBF300D99F3F /* EmptySpot.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC738021699FBF300D99F3F /* EmptySpot.m */; };
 		ACC738061699FC0100D99F3F /* MineSpot.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC738051699FC0100D99F3F /* MineSpot.m */; };
-		ACC73809169A01D900D99F3F /* MineSpotState.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC73808169A01D900D99F3F /* MineSpotState.m */; };
 		ACC7380D169A025B00D99F3F /* MineField.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7380C169A025B00D99F3F /* MineField.m */; };
 /* End PBXBuildFile section */
 
@@ -88,8 +87,6 @@
 		ACC738021699FBF300D99F3F /* EmptySpot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptySpot.m; sourceTree = "<group>"; };
 		ACC738041699FC0100D99F3F /* MineSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineSpot.h; sourceTree = "<group>"; };
 		ACC738051699FC0100D99F3F /* MineSpot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineSpot.m; sourceTree = "<group>"; };
-		ACC73807169A01D900D99F3F /* MineSpotState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineSpotState.h; sourceTree = "<group>"; };
-		ACC73808169A01D900D99F3F /* MineSpotState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineSpotState.m; sourceTree = "<group>"; };
 		ACC7380B169A025B00D99F3F /* MineField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineField.h; sourceTree = "<group>"; };
 		ACC7380C169A025B00D99F3F /* MineField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineField.m; sourceTree = "<group>"; };
 		ACC7380E169A02D500D99F3F /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
@@ -131,6 +128,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC18E88E16A7394500036584 /* Spot */ = {
+			isa = PBXGroup;
+			children = (
+				ACC737FE1699FBD700D99F3F /* Spot.h */,
+				ACC737FF1699FBD700D99F3F /* Spot.m */,
+				ACC7380A169A01FC00D99F3F /* State */,
+			);
+			name = Spot;
+			sourceTree = "<group>";
+		};
 		AC4D00131699B6D30038D7C2 /* MineSweeper_StoryboardsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,9 +280,7 @@
 				ACC7380E169A02D500D99F3F /* Common.h */,
 				ACC7380B169A025B00D99F3F /* MineField.h */,
 				ACC7380C169A025B00D99F3F /* MineField.m */,
-				ACC737FE1699FBD700D99F3F /* Spot.h */,
-				ACC737FF1699FBD700D99F3F /* Spot.m */,
-				ACC7380A169A01FC00D99F3F /* State */,
+				AC18E88E16A7394500036584 /* Spot */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -283,8 +288,6 @@
 		ACC7380A169A01FC00D99F3F /* State */ = {
 			isa = PBXGroup;
 			children = (
-				ACC73807169A01D900D99F3F /* MineSpotState.h */,
-				ACC73808169A01D900D99F3F /* MineSpotState.m */,
 				ACC738011699FBF300D99F3F /* EmptySpot.h */,
 				ACC738021699FBF300D99F3F /* EmptySpot.m */,
 				ACC738041699FC0100D99F3F /* MineSpot.h */,
@@ -475,7 +478,6 @@
 				ACC738001699FBD700D99F3F /* Spot.m in Sources */,
 				ACC738031699FBF300D99F3F /* EmptySpot.m in Sources */,
 				ACC738061699FC0100D99F3F /* MineSpot.m in Sources */,
-				ACC73809169A01D900D99F3F /* MineSpotState.m in Sources */,
 				ACC7380D169A025B00D99F3F /* MineField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

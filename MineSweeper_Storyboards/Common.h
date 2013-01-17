@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "Spot.h"
-#import "MineSpotState.h"
 #import "EmptySpot.h"
 #import "MineSpot.h"
 

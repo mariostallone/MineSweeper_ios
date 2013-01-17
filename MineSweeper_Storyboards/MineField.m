@@ -19,14 +19,12 @@
     {
         for(int j=0;j<rows;j++)
         {
-            Spot *spot = [[Spot alloc] init];
-            [spots addObject:spot];
             if(arc4random()%2==0)
             {
-                [spot setState:[[MineSpot alloc] init]];
+                [spots addObject:[[MineSpot alloc] init]];
                 continue;
             }
-            [spot setState:[[EmptySpot alloc] init]];
+            [spots addObject:[[EmptySpot alloc] init]];
         }
     }
 }

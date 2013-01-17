@@ -6,10 +6,9 @@
 //  Copyright (c) 2013 Mario Stallone. All rights reserved.
 //
 
-#import "MineSpotState.h"
+#import "Spot.h"
 
-@interface EmptySpot : MineSpotState
+@interface EmptySpot : Spot
 
-@property(nonatomic,retain) NSMutableArray *delegates;
 
 @end

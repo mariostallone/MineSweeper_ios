@@ -7,7 +7,6 @@
 //
 
 #import "MineFieldViewController.h"
-#import "MineSpotState.h"
 #import "MineSpot.h"
 #import "EmptySpot.h"
 #import "SpotCell.h"
@@ -62,10 +61,14 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     Spot *spot= [mineField.spots objectAtIndex:indexPath.section*indexPath.row];
-    if ([[spot state]isKindOfClass:[MineSpot class]]) {
-        SpotCell *spotCell = (SpotCell*)[collectionView cellForItemAtIndexPath:indexPath];
+    SpotCell *spotCell = (SpotCell*)[collectionView cellForItemAtIndexPath:indexPath];
+    if ([spot isKindOfClass:[MineSpot class]])
+    {
         [spotCell.frontImage setImage:[UIImage imageNamed:@"mine.png"]];
+        return;
     }
+    [spotCell.frontLabel setText:@"4"];
+    [spotCell.frontImage setAlpha:0.5];
 }
 
 @end
