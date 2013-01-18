@@ -12,7 +12,7 @@
 
 -(void)open
 {
-
+    [super open];
 }
 
 -(NSString*)neighbourMineCount

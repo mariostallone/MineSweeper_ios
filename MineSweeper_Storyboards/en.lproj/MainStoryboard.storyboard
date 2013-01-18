@@ -36,8 +36,29 @@
                             <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Spot" id="klO-52-gbK" customClass="SpotCell">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Mine" id="oih-L9-tcQ" customClass="SpotCell">
                                 <rect key="frame" x="5" y="5" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="mine.png" translatesAutoresizingMaskIntoConstraints="NO" id="Aza-R0-J5t"/>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="Aza-R0-J5t" firstAttribute="leading" secondItem="oih-L9-tcQ" secondAttribute="leading" type="default" id="5O1-ou-9Uq"/>
+                                    <constraint firstItem="Aza-R0-J5t" firstAttribute="top" secondItem="oih-L9-tcQ" secondAttribute="top" type="default" id="Q0W-KR-nHB"/>
+                                    <constraint firstItem="Aza-R0-J5t" firstAttribute="trailing" secondItem="oih-L9-tcQ" secondAttribute="trailing" type="default" id="d9P-vr-9gG"/>
+                                    <constraint firstItem="Aza-R0-J5t" firstAttribute="bottom" secondItem="oih-L9-tcQ" secondAttribute="bottom" type="default" id="wWR-Gy-GIE"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="frontImage" destination="Aza-R0-J5t" id="sts-7Q-aLN"/>
+                                </connections>
+                            </collectionViewCell>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Spot" id="klO-52-gbK" customClass="SpotCell">
+                                <rect key="frame" x="50" y="5" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
@@ -83,6 +104,7 @@
     </scenes>
     <resources>
         <image name="cell.jpg" width="100" height="100"/>
+        <image name="mine.png" width="256" height="256"/>
     </resources>
     <classes>
         <class className="MineFieldViewController" superclassName="UICollectionViewController">
@@ -109,6 +131,9 @@
         </class>
         <class className="UICollectionViewFlowLayout" superclassName="UICollectionViewLayout">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewFlowLayout.h"/>
+        </class>
+        <class className="UICollectionViewLayout" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewLayout.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

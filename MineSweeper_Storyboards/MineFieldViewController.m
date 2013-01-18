@@ -59,26 +59,23 @@ enum spotImageEnum {
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    @synchronized(self)
-    {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Spot" forIndexPath:indexPath];
     Spot *spot= [[mineField.spots objectAtIndex:indexPath.row] objectAtIndex:indexPath.section];
-    SpotCell *spotCell = (SpotCell*)cell;
-    if([spot isOpen]&&[spot isKindOfClass:[MineSpot class]])
+    UICollectionViewCell *cell = nil;
+    if(![spot isOpen])
     {
-        [spotCell.frontImage setImage:[_spotImageArray objectAtIndex:mineImage]];
-        [spotCell.frontLabel setText:@""];
-        [spotCell.frontImage setAlpha:1.0];
+        cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"Spot" forIndexPath:indexPath];
         return cell;
     }
-    [spotCell.frontImage setImage:[_spotImageArray objectAtIndex:cellImage]];
-    if([spot isOpen])
+    if([spot isKindOfClass:[MineSpot class]])
     {
-//        [spotCell.frontLabel setText:[(EmptySpot*)spot neighbourMineCount]];
-        [spotCell.frontImage setAlpha:0];
+        cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"Mine" forIndexPath:indexPath];
+        return cell;
     }
-    return cell;
-    }
+    cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"Spot" forIndexPath:indexPath];
+    SpotCell *spotCell = (SpotCell*)cell;
+    [spotCell.frontLabel setText:[(EmptySpot*)spot neighbourMineCount]];
+    [spotCell.frontImage setAlpha:0.5];
+    return spotCell;
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
