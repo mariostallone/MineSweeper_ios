@@ -80,10 +80,7 @@
     {
         for(Spot *spot in rowOfSpots)
         {
-            if([spot isKindOfClass:[MineSpot class]])
-            {
-                [(MineSpot*)spot setBlasted];
-            }
+            [rowOfSpots makeObjectsPerformSelector:@selector(setBlasted)];
         }
     }
 }

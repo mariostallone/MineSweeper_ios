@@ -27,6 +27,8 @@ enum spotImageEnum {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self initialize];
+    //[self.collectionView registerClass:[SpotCell class] forCellWithReuseIdentifier:@"Spot"];
+    //[self.collectionView registerClass:[SpotCell class] forCellWithReuseIdentifier:@"Mine"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -68,13 +70,13 @@ enum spotImageEnum {
     }
     if([spot isKindOfClass:[MineSpot class]])
     {
-        cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"Mine" forIndexPath:indexPath];
+        cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"Mine" forIndexPath:indexPath];      
         return cell;
     }
     cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"Spot" forIndexPath:indexPath];
     SpotCell *spotCell = (SpotCell*)cell;
     [spotCell.frontLabel setText:[(EmptySpot*)spot neighbourMineCount]];
-    [spotCell.frontImage setAlpha:0.5];
+    [spotCell.frontImage setAlpha:0.5];   
     return spotCell;
 }
 
@@ -92,6 +94,11 @@ enum spotImageEnum {
     }
     [spotCell.frontLabel setText:[(EmptySpot*)spot neighbourMineCount]];
     [spotCell.frontImage setAlpha:0.5];
+}
+
+-(void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    
 }
 
 @end

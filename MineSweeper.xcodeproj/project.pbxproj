@@ -54,21 +54,21 @@
 		AC4D00021699B6D30038D7C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AC4D00041699B6D30038D7C2 /* MineFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineFieldViewController.h; sourceTree = "<group>"; };
 		AC4D00051699B6D30038D7C2 /* MineFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineFieldViewController.m; sourceTree = "<group>"; };
-		AC4D000C1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeper_StoryboardsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4D000C1699B6D30038D7C2 /* MineSweeperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4D000D1699B6D30038D7C2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		AC4D00151699B6D30038D7C2 /* MineSweeper_StoryboardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MineSweeper_StoryboardsTests-Info.plist"; sourceTree = "<group>"; };
+		AC4D00151699B6D30038D7C2 /* MineSweeperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MineSweeperTests-Info.plist"; sourceTree = "<group>"; };
 		AC4D00171699B6D30038D7C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC4D00191699B6D30038D7C2 /* MineSweeper_StoryboardsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineSweeper_StoryboardsTests.h; sourceTree = "<group>"; };
 		AC4D001A1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineSweeper_StoryboardsTests.m; sourceTree = "<group>"; };
 		AC4D002B1699BAFA0038D7C2 /* cell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cell.jpg; path = MineSweeper_Storyboards/cell.jpg; sourceTree = "<group>"; };
-		AC4DFFE51699B6D30038D7C2 /* MineSweeper_Storyboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper_Storyboards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4DFFE51699B6D30038D7C2 /* MineSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4DFFE91699B6D30038D7C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AC4DFFEB1699B6D30038D7C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AC4DFFED1699B6D30038D7C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AC4DFFF11699B6D30038D7C2 /* MineSweeper_Storyboards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MineSweeper_Storyboards-Info.plist"; sourceTree = "<group>"; };
+		AC4DFFF11699B6D30038D7C2 /* MineSweeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MineSweeper-Info.plist"; sourceTree = "<group>"; };
 		AC4DFFF31699B6D30038D7C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC4DFFF51699B6D30038D7C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AC4DFFF71699B6D30038D7C2 /* MineSweeper_Storyboards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MineSweeper_Storyboards-Prefix.pch"; sourceTree = "<group>"; };
+		AC4DFFF71699B6D30038D7C2 /* MineSweeper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MineSweeper-Prefix.pch"; sourceTree = "<group>"; };
 		AC4DFFF81699B6D30038D7C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC4DFFF91699B6D30038D7C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AC4DFFFB1699B6D30038D7C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		AC4D00141699B6D30038D7C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC4D00151699B6D30038D7C2 /* MineSweeper_StoryboardsTests-Info.plist */,
+				AC4D00151699B6D30038D7C2 /* MineSweeperTests-Info.plist */,
 				AC4D00161699B6D30038D7C2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -176,8 +176,8 @@
 		AC4DFFE61699B6D30038D7C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC4DFFE51699B6D30038D7C2 /* MineSweeper_Storyboards.app */,
-				AC4D000C1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.octest */,
+				AC4DFFE51699B6D30038D7C2 /* MineSweeper.app */,
+				AC4D000C1699B6D30038D7C2 /* MineSweeperTests.octest */,
 				ACC737D81699F52D00D99F3F /* MineSweeperSpecs.octest */,
 			);
 			name = Products;
@@ -211,10 +211,10 @@
 		AC4DFFF01699B6D30038D7C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC4DFFF11699B6D30038D7C2 /* MineSweeper_Storyboards-Info.plist */,
+				AC4DFFF11699B6D30038D7C2 /* MineSweeper-Info.plist */,
 				AC4DFFF21699B6D30038D7C2 /* InfoPlist.strings */,
 				AC4DFFF51699B6D30038D7C2 /* main.m */,
-				AC4DFFF71699B6D30038D7C2 /* MineSweeper_Storyboards-Prefix.pch */,
+				AC4DFFF71699B6D30038D7C2 /* MineSweeper-Prefix.pch */,
 				AC4DFFFB1699B6D30038D7C2 /* Default.png */,
 				AC4DFFFD1699B6D30038D7C2 /* Default@2x.png */,
 				AC4DFFFF1699B6D30038D7C2 /* Default-568h@2x.png */,
@@ -312,9 +312,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC4D000B1699B6D30038D7C2 /* MineSweeper_StoryboardsTests */ = {
+		AC4D000B1699B6D30038D7C2 /* MineSweeperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC4D00211699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeper_StoryboardsTests" */;
+			buildConfigurationList = AC4D00211699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeperTests" */;
 			buildPhases = (
 				AC4D00071699B6D30038D7C2 /* Sources */,
 				AC4D00081699B6D30038D7C2 /* Frameworks */,
@@ -326,14 +326,14 @@
 			dependencies = (
 				AC4D00121699B6D30038D7C2 /* PBXTargetDependency */,
 			);
-			name = MineSweeper_StoryboardsTests;
+			name = MineSweeperTests;
 			productName = MineSweeper_StoryboardsTests;
-			productReference = AC4D000C1699B6D30038D7C2 /* MineSweeper_StoryboardsTests.octest */;
+			productReference = AC4D000C1699B6D30038D7C2 /* MineSweeperTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		AC4DFFE41699B6D30038D7C2 /* MineSweeper_Storyboards */ = {
+		AC4DFFE41699B6D30038D7C2 /* MineSweeper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC4D001E1699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeper_Storyboards" */;
+			buildConfigurationList = AC4D001E1699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeper" */;
 			buildPhases = (
 				AC4DFFE11699B6D30038D7C2 /* Sources */,
 				AC4DFFE21699B6D30038D7C2 /* Frameworks */,
@@ -343,9 +343,9 @@
 			);
 			dependencies = (
 			);
-			name = MineSweeper_Storyboards;
+			name = MineSweeper;
 			productName = MineSweeper_Storyboards;
-			productReference = AC4DFFE51699B6D30038D7C2 /* MineSweeper_Storyboards.app */;
+			productReference = AC4DFFE51699B6D30038D7C2 /* MineSweeper.app */;
 			productType = "com.apple.product-type.application";
 		};
 		ACC737D71699F52D00D99F3F /* MineSweeperSpecs */ = {
@@ -376,7 +376,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Mario Stallone";
 			};
-			buildConfigurationList = AC4DFFDF1699B6D20038D7C2 /* Build configuration list for PBXProject "MineSweeper_Storyboards" */;
+			buildConfigurationList = AC4DFFDF1699B6D20038D7C2 /* Build configuration list for PBXProject "MineSweeper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -388,8 +388,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC4DFFE41699B6D30038D7C2 /* MineSweeper_Storyboards */,
-				AC4D000B1699B6D30038D7C2 /* MineSweeper_StoryboardsTests */,
+				AC4DFFE41699B6D30038D7C2 /* MineSweeper */,
+				AC4D000B1699B6D30038D7C2 /* MineSweeperTests */,
 				ACC737D71699F52D00D99F3F /* MineSweeperSpecs */,
 			);
 		};
@@ -509,7 +509,7 @@
 /* Begin PBXTargetDependency section */
 		AC4D00121699B6D30038D7C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AC4DFFE41699B6D30038D7C2 /* MineSweeper_Storyboards */;
+			target = AC4DFFE41699B6D30038D7C2 /* MineSweeper */;
 			targetProxy = AC4D00111699B6D30038D7C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -603,9 +603,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MineSweeper_Storyboards/MineSweeper_Storyboards-Prefix.pch";
-				INFOPLIST_FILE = "MineSweeper_Storyboards/MineSweeper_Storyboards-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MineSweeper_Storyboards/MineSweeper-Prefix.pch";
+				INFOPLIST_FILE = "MineSweeper_Storyboards/MineSweeper-Info.plist";
+				PRODUCT_NAME = MineSweeper;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -614,9 +614,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MineSweeper_Storyboards/MineSweeper_Storyboards-Prefix.pch";
-				INFOPLIST_FILE = "MineSweeper_Storyboards/MineSweeper_Storyboards-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MineSweeper_Storyboards/MineSweeper-Prefix.pch";
+				INFOPLIST_FILE = "MineSweeper_Storyboards/MineSweeper-Info.plist";
+				PRODUCT_NAME = MineSweeper;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -631,8 +631,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MineSweeper_Storyboards/MineSweeper_Storyboards-Prefix.pch";
-				INFOPLIST_FILE = "MineSweeper_StoryboardsTests/MineSweeper_StoryboardsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MineSweeper_StoryboardsTests/MineSweeperTests-Info.plist";
+				PRODUCT_NAME = MineSweeperTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -648,8 +648,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MineSweeper_Storyboards/MineSweeper_Storyboards-Prefix.pch";
-				INFOPLIST_FILE = "MineSweeper_StoryboardsTests/MineSweeper_StoryboardsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MineSweeper_StoryboardsTests/MineSweeperTests-Info.plist";
+				PRODUCT_NAME = MineSweeperTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -694,7 +694,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC4D001E1699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeper_Storyboards" */ = {
+		AC4D001E1699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC4D001F1699B6D30038D7C2 /* Debug */,
@@ -703,7 +703,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC4D00211699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeper_StoryboardsTests" */ = {
+		AC4D00211699B6D30038D7C2 /* Build configuration list for PBXNativeTarget "MineSweeperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC4D00221699B6D30038D7C2 /* Debug */,
@@ -712,7 +712,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC4DFFDF1699B6D20038D7C2 /* Build configuration list for PBXProject "MineSweeper_Storyboards" */ = {
+		AC4DFFDF1699B6D20038D7C2 /* Build configuration list for PBXProject "MineSweeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC4D001C1699B6D30038D7C2 /* Debug */,

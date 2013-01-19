@@ -7,13 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Common.h"
+#import "MineSpot.h"
 
-@interface MineField : NSObject
+@interface MineField : NSObject<BlastMineProtocol>
 
 @property(nonatomic,retain) NSMutableArray *spots;
 
 -(void)initialize;
--(void)blastMine;
 
 @end

@@ -13,7 +13,6 @@
 @protocol SpotNeighbourKnock <NSObject>
 
 -(void)openNeighbour;
--(BOOL)isMine;
 
 @end
 
@@ -26,5 +25,6 @@
 -(NSString*)neighbourCount;
 -(BOOL)isOpen;
 -(void)open;
+-(void)setBlasted;
 
 @end

@@ -35,4 +35,14 @@
     _open=YES;
 }
 
+-(void)setBlasted
+{
+    
+}
+
+-(void)openNeighbour
+{
+    
+}
+
 @end
