@@ -24,6 +24,7 @@
 
 -(NSString*)neighbourCount;
 -(BOOL)isOpen;
+-(BOOL)isNotOpen;
 -(void)open;
 -(void)setBlasted;
 

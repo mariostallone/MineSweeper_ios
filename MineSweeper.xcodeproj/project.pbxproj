@@ -25,6 +25,7 @@
 		AC4DFFFA1699B6D30038D7C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4DFFF91699B6D30038D7C2 /* AppDelegate.m */; };
 		AC4DFFFC1699B6D30038D7C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4DFFFB1699B6D30038D7C2 /* Default.png */; };
 		AC4DFFFE1699B6D30038D7C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4DFFFD1699B6D30038D7C2 /* Default@2x.png */; };
+		AC97B00016AB34DA00004F14 /* navbar_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = AC97AFFF16AB34DA00004F14 /* navbar_retina.png */; };
 		AC98806416A8803E00968C69 /* NSArray+NSArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AC98806316A8803E00968C69 /* NSArray+NSArrayUtils.m */; };
 		ACC737D91699F52D00D99F3F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4D000D1699B6D30038D7C2 /* SenTestingKit.framework */; };
 		ACC737DA1699F52D00D99F3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4DFFE91699B6D30038D7C2 /* UIKit.framework */; };
@@ -74,6 +75,7 @@
 		AC4DFFFB1699B6D30038D7C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AC4DFFFD1699B6D30038D7C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AC4DFFFF1699B6D30038D7C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AC97AFFF16AB34DA00004F14 /* navbar_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_retina.png; sourceTree = "<group>"; };
 		AC98806216A8803E00968C69 /* NSArray+NSArrayUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSArrayUtils.h"; sourceTree = "<group>"; };
 		AC98806316A8803E00968C69 /* NSArray+NSArrayUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSArrayUtils.m"; sourceTree = "<group>"; };
 		ACC737D81699F52D00D99F3F /* MineSweeperSpecs.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperSpecs.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -244,6 +246,7 @@
 			children = (
 				ACC737F81699F9F600D99F3F /* mine.png */,
 				AC4D002B1699BAFA0038D7C2 /* cell.jpg */,
+				AC97AFFF16AB34DA00004F14 /* navbar_retina.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				AC4D00031699B6D30038D7C2 /* MainStoryboard.storyboard in Resources */,
 				AC4D002C1699BAFA0038D7C2 /* cell.jpg in Resources */,
 				ACC737F91699F9F600D99F3F /* mine.png in Resources */,
+				AC97B00016AB34DA00004F14 /* navbar_retina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

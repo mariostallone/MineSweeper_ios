@@ -17,7 +17,12 @@
 
 -(NSString*)neighbourMineCount
 {
-    return [NSString stringWithFormat:@"%d",[self.neighbours countOfObjectsOfType:[MineSpot class]]];
+    NSInteger mineCount = [self.neighbours countOfObjectsOfType:[MineSpot class]];
+    if(mineCount==0)
+    {
+        return @"";
+    }
+    return [NSString stringWithFormat:@"%d",mineCount];
 }
 
 @end

@@ -27,8 +27,6 @@ enum spotImageEnum {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self initialize];
-    //[self.collectionView registerClass:[SpotCell class] forCellWithReuseIdentifier:@"Spot"];
-    //[self.collectionView registerClass:[SpotCell class] forCellWithReuseIdentifier:@"Mine"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,14 +37,14 @@ enum spotImageEnum {
 
 -(void)initialize
 {
-    mineField = [[MineField alloc] init];
-    [mineField initialize];
+    _mineField = [[MineField alloc] init];
+    [_mineField initialize];
     _spotImageArray = @[[UIImage imageNamed:@"cell.jpg"],[UIImage imageNamed:@"mine.png"]];
 }
 
 -(NSInteger)spotCount
 {
-    return [mineField.spots count];
+    return [_mineField.spots count];
 }
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
@@ -61,44 +59,35 @@ enum spotImageEnum {
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    Spot *spot= [[mineField.spots objectAtIndex:indexPath.row] objectAtIndex:indexPath.section];
-    UICollectionViewCell *cell = nil;
-    if(![spot isOpen])
-    {
-        cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"Spot" forIndexPath:indexPath];
-        return cell;
-    }
+    Spot *spot= [[_mineField.spots objectAtIndex:indexPath.row] objectAtIndex:indexPath.section];
+    SpotCell *cell = nil;
     if([spot isKindOfClass:[MineSpot class]])
     {
-        cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"Mine" forIndexPath:indexPath];      
-        return cell;
+        if([spot isNotOpen])
+        {
+            return [collectionView dequeueReusableCellWithReuseIdentifier:@"ClosedSpot" forIndexPath:indexPath];
+        }
+        return [collectionView dequeueReusableCellWithReuseIdentifier:@"Mine" forIndexPath:indexPath];
     }
-    cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"Spot" forIndexPath:indexPath];
-    SpotCell *spotCell = (SpotCell*)cell;
-    [spotCell.frontLabel setText:[(EmptySpot*)spot neighbourMineCount]];
-    [spotCell.frontImage setAlpha:0.5];   
-    return spotCell;
+    if([spot isNotOpen])
+    {
+        return [collectionView dequeueReusableCellWithReuseIdentifier:@"ClosedSpot" forIndexPath:indexPath];
+    }
+    cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"OpenSpot" forIndexPath:indexPath];
+    [cell.frontLabel setText:[(EmptySpot*)spot neighbourMineCount]];
+    [cell.frontImage setAlpha:0.5];
+    return cell;
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    Spot *spot= [[mineField.spots objectAtIndex:indexPath.row] objectAtIndex:indexPath.section];
+    Spot *spot= [[_mineField.spots objectAtIndex:indexPath.row] objectAtIndex:indexPath.section];
     [spot open];
-    SpotCell *spotCell = (SpotCell*)[collectionView cellForItemAtIndexPath:indexPath];
     if ([spot isKindOfClass:[MineSpot class]])
     {
-        [spotCell.frontImage setImage:[_spotImageArray objectAtIndex:mineImage]];
-        [collectionView reloadData];
         [collectionView setUserInteractionEnabled:YES];
-        return;
     }
-    [spotCell.frontLabel setText:[(EmptySpot*)spot neighbourMineCount]];
-    [spotCell.frontImage setAlpha:0.5];
-}
-
--(void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath
-{
-    
+    [collectionView reloadData];
 }
 
 @end

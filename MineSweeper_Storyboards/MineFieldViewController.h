@@ -11,7 +11,7 @@
 
 @interface MineFieldViewController : UICollectionViewController<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 {
-    MineField *mineField;
+    MineField *_mineField;
     NSArray *_spotImageArray;
 }
 

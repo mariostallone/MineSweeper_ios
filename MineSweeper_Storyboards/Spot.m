@@ -30,6 +30,11 @@
     return _open;
 }
 
+-(BOOL)isNotOpen
+{
+    return !_open;
+}
+
 -(void)open
 {
     _open=YES;
