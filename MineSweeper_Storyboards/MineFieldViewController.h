@@ -15,6 +15,4 @@
     NSArray *_spotImageArray;
 }
 
--(NSInteger)spotCount;
-
 @end

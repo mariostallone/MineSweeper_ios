@@ -19,10 +19,15 @@ describe(@"MineFieldViewController", ^{
         controller = [mainStoryboard instantiateViewControllerWithIdentifier:@"MineFieldViewController"];
         [controller viewDidLoad];
     });
-    context(@"loads", ^{
-        it(@"should contain a proper grid", ^{
+    context(@"when it loads", ^{
+        it(@"should contain a properly formed grid", ^{
             [controller loadView];
-            [[theValue([controller spotCount]) should] equal:theValue(rows*cols)];
+            [[theValue([controller numberOfSectionsInCollectionView:controller.collectionView]) should] equal:theValue(sections)];
+            for(NSInteger i =0;i<sections;i++)
+            {
+                [[theValue([controller collectionView:controller.collectionView numberOfItemsInSection:i])
+                 should] equal:theValue(rows)];
+            }
         });
     });
 });

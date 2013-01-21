@@ -11,5 +11,7 @@
 #import "EmptySpot.h"
 #import "MineSpot.h"
 
-static const NSInteger cols = 8;
+static const NSInteger sections = 8;
 static const NSInteger rows = 7;
+
+//#define NSLog                       //

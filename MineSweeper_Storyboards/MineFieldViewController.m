@@ -42,11 +42,6 @@ enum spotImageEnum {
     _spotImageArray = @[[UIImage imageNamed:@"cell.jpg"],[UIImage imageNamed:@"mine.png"]];
 }
 
--(NSInteger)spotCount
-{
-    return [_mineField.spots count];
-}
-
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     return rows;
@@ -54,7 +49,7 @@ enum spotImageEnum {
 
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
-    return cols;
+    return sections;
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
